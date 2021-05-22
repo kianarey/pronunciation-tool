@@ -16,9 +16,11 @@ __Note:__ *The project materials have been revised on May 21, 2021 by Kiana Vang
 #### About the Code
 `seniorDesign.py` is the main program that runs the GUI via Tkinter. It allows user to select language, tone and word. It plays back the reference audio for the word the user was attempting to pronounce and also allows the user to record.
 
-`mand_deeplearning.py` predicts the user's tone using the .h5 file that is included.
+`mand_deeplearning.py` predicts the user's tone.
 
 `spectrogram.py` displays the pitch contour of the user's pronunciation and the reference pronunciation. 
+
+Note: All files are provided except `Mandarin_model.h5` file which is **required** to successully run the GUI. See [here](https://github.com/kianavang/kianavang) for how to contact me for this file.
 
 #### How to Run Code
 Build the program:
