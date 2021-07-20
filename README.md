@@ -24,5 +24,6 @@ Note: All files are provided except `Mandarin_model.h5` file which is **required
 
 #### How to Run Code
 Make sure all files are within the same directory. Build the program using shell command:
-
+    
+    $ pip install -r requirements.txt
     $ python seniordesign.py
